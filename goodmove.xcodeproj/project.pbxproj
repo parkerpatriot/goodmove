@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76477A7290BE2C7F3BD49F4F /* Pods_goodmove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B9AEFD426609061D45F9D /* Pods_goodmove.framework */; };
+		78828871B84E01B229513236 /* Pods_goodmoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FC270CC6D44E9DBDB3A209 /* Pods_goodmoveTests.framework */; };
 		8CE68F1C24BAA8CB00D490A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F1B24BAA8CB00D490A1 /* AppDelegate.swift */; };
 		8CE68F1E24BAA8CB00D490A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F1D24BAA8CB00D490A1 /* SceneDelegate.swift */; };
 		8CE68F2024BAA8CB00D490A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F1F24BAA8CB00D490A1 /* ContentView.swift */; };
@@ -14,6 +16,12 @@
 		8CE68F2524BAA8CE00D490A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE68F2424BAA8CE00D490A1 /* Preview Assets.xcassets */; };
 		8CE68F2824BAA8CE00D490A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE68F2624BAA8CE00D490A1 /* LaunchScreen.storyboard */; };
 		8CE68F3324BAA8CE00D490A1 /* goodmoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F3224BAA8CE00D490A1 /* goodmoveTests.swift */; };
+		8CE68F3F24BAA9EF00D490A1 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F3E24BAA9EF00D490A1 /* GameListView.swift */; };
+		8CE68F4124BAAB8900D490A1 /* goodmove.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE68F4024BAAB8800D490A1 /* goodmove.json */; };
+		8CE68F4424BAABCB00D490A1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F4324BAABCB00D490A1 /* Game.swift */; };
+		8CE68F4624BABA5800D490A1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F4524BABA5800D490A1 /* Helper.swift */; };
+		8CE68F4824BADFD700D490A1 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F4724BADFD700D490A1 /* GameDetail.swift */; };
+		8CE68F4A24BB620000D490A1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE68F4924BB620000D490A1 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12FC270CC6D44E9DBDB3A209 /* Pods_goodmoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodmoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263704AD5CA65A438A456BB8 /* Pods-goodmoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodmoveTests.release.xcconfig"; path = "Target Support Files/Pods-goodmoveTests/Pods-goodmoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		80BA9194F53A48625C880C81 /* Pods-goodmove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodmove.release.xcconfig"; path = "Target Support Files/Pods-goodmove/Pods-goodmove.release.xcconfig"; sourceTree = "<group>"; };
 		8CE68F1824BAA8CB00D490A1 /* goodmove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodmove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE68F1B24BAA8CB00D490A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CE68F1D24BAA8CB00D490A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +49,15 @@
 		8CE68F2E24BAA8CE00D490A1 /* goodmoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goodmoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE68F3224BAA8CE00D490A1 /* goodmoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodmoveTests.swift; sourceTree = "<group>"; };
 		8CE68F3424BAA8CE00D490A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE68F3E24BAA9EF00D490A1 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		8CE68F4024BAAB8800D490A1 /* goodmove.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goodmove.json; sourceTree = "<group>"; };
+		8CE68F4324BAABCB00D490A1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8CE68F4524BABA5800D490A1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8CE68F4724BADFD700D490A1 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		8CE68F4924BB620000D490A1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		908B9AEFD426609061D45F9D /* Pods_goodmove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodmove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4A2AEC966852CB8C7B529B /* Pods-goodmoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodmoveTests.debug.xcconfig"; path = "Target Support Files/Pods-goodmoveTests/Pods-goodmoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1CCF4DCCCCACE1B34208D2D /* Pods-goodmove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodmove.debug.xcconfig"; path = "Target Support Files/Pods-goodmove/Pods-goodmove.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76477A7290BE2C7F3BD49F4F /* Pods_goodmove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +73,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78828871B84E01B229513236 /* Pods_goodmoveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A4269FD40942837998B9225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCF4DCCCCACE1B34208D2D /* Pods-goodmove.debug.xcconfig */,
+				80BA9194F53A48625C880C81 /* Pods-goodmove.release.xcconfig */,
+				9D4A2AEC966852CB8C7B529B /* Pods-goodmoveTests.debug.xcconfig */,
+				263704AD5CA65A438A456BB8 /* Pods-goodmoveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		82ACC6A214D8C92AC97896A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908B9AEFD426609061D45F9D /* Pods_goodmove.framework */,
+				12FC270CC6D44E9DBDB3A209 /* Pods_goodmoveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CE68F0F24BAA8CB00D490A1 = {
 			isa = PBXGroup;
 			children = (
 				8CE68F1A24BAA8CB00D490A1 /* goodmove */,
 				8CE68F3124BAA8CE00D490A1 /* goodmoveTests */,
 				8CE68F1924BAA8CB00D490A1 /* Products */,
+				2A4269FD40942837998B9225 /* Pods */,
+				82ACC6A214D8C92AC97896A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +123,13 @@
 		8CE68F1A24BAA8CB00D490A1 /* goodmove */ = {
 			isa = PBXGroup;
 			children = (
+				8CE68F4224BAABB700D490A1 /* Objects */,
+				8CE68F3D24BAA9AA00D490A1 /* Views */,
 				8CE68F1B24BAA8CB00D490A1 /* AppDelegate.swift */,
 				8CE68F1D24BAA8CB00D490A1 /* SceneDelegate.swift */,
-				8CE68F1F24BAA8CB00D490A1 /* ContentView.swift */,
 				8CE68F2124BAA8CE00D490A1 /* Assets.xcassets */,
 				8CE68F2624BAA8CE00D490A1 /* LaunchScreen.storyboard */,
+				8CE68F4024BAAB8800D490A1 /* goodmove.json */,
 				8CE68F2924BAA8CE00D490A1 /* Info.plist */,
 				8CE68F2324BAA8CE00D490A1 /* Preview Content */,
 			);
@@ -107,6 +153,26 @@
 			path = goodmoveTests;
 			sourceTree = "<group>";
 		};
+		8CE68F3D24BAA9AA00D490A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CE68F1F24BAA8CB00D490A1 /* ContentView.swift */,
+				8CE68F3E24BAA9EF00D490A1 /* GameListView.swift */,
+				8CE68F4724BADFD700D490A1 /* GameDetail.swift */,
+				8CE68F4924BB620000D490A1 /* SearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CE68F4224BAABB700D490A1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8CE68F4324BAABCB00D490A1 /* Game.swift */,
+				8CE68F4524BABA5800D490A1 /* Helper.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE68F3724BAA8CE00D490A1 /* Build configuration list for PBXNativeTarget "goodmove" */;
 			buildPhases = (
+				B4CB2127C5FC069BE3F837EA /* [CP] Check Pods Manifest.lock */,
 				8CE68F1424BAA8CB00D490A1 /* Sources */,
 				8CE68F1524BAA8CB00D490A1 /* Frameworks */,
 				8CE68F1624BAA8CB00D490A1 /* Resources */,
+				150F9FD7F78810FE5EB42E93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE68F3A24BAA8CE00D490A1 /* Build configuration list for PBXNativeTarget "goodmoveTests" */;
 			buildPhases = (
+				37AA50559042C28DC6CDC457 /* [CP] Check Pods Manifest.lock */,
 				8CE68F2A24BAA8CE00D490A1 /* Sources */,
 				8CE68F2B24BAA8CE00D490A1 /* Frameworks */,
 				8CE68F2C24BAA8CE00D490A1 /* Resources */,
@@ -189,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE68F2824BAA8CE00D490A1 /* LaunchScreen.storyboard in Resources */,
+				8CE68F4124BAAB8900D490A1 /* goodmove.json in Resources */,
 				8CE68F2524BAA8CE00D490A1 /* Preview Assets.xcassets in Resources */,
 				8CE68F2224BAA8CE00D490A1 /* Assets.xcassets in Resources */,
 			);
@@ -203,14 +273,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		150F9FD7F78810FE5EB42E93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-goodmove/Pods-goodmove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-goodmove/Pods-goodmove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-goodmove/Pods-goodmove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37AA50559042C28DC6CDC457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-goodmoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CB2127C5FC069BE3F837EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-goodmove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CE68F1424BAA8CB00D490A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CE68F1C24BAA8CB00D490A1 /* AppDelegate.swift in Sources */,
+				8CE68F4424BAABCB00D490A1 /* Game.swift in Sources */,
 				8CE68F1E24BAA8CB00D490A1 /* SceneDelegate.swift in Sources */,
+				8CE68F3F24BAA9EF00D490A1 /* GameListView.swift in Sources */,
+				8CE68F4824BADFD700D490A1 /* GameDetail.swift in Sources */,
+				8CE68F4A24BB620000D490A1 /* SearchBar.swift in Sources */,
 				8CE68F2024BAA8CB00D490A1 /* ContentView.swift in Sources */,
+				8CE68F4624BABA5800D490A1 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +499,7 @@
 		};
 		8CE68F3824BAA8CE00D490A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CCF4DCCCCACE1B34208D2D /* Pods-goodmove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +519,7 @@
 		};
 		8CE68F3924BAA8CE00D490A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BA9194F53A48625C880C81 /* Pods-goodmove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +539,7 @@
 		};
 		8CE68F3B24BAA8CE00D490A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4A2AEC966852CB8C7B529B /* Pods-goodmoveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +561,7 @@
 		};
 		8CE68F3C24BAA8CE00D490A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263704AD5CA65A438A456BB8 /* Pods-goodmoveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

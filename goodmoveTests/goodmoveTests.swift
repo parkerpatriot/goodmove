@@ -22,6 +22,8 @@ class goodmoveTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        var _ : [Games] = Bundle.main.decode([Games].self, from: "goodmove.json")
+
     }
 
     func testPerformanceExample() throws {
